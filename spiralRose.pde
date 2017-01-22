@@ -1,4 +1,4 @@
-float r = 1.0;
+float r = 10;
 float a = 1.95;
 
 void setup(){
@@ -32,7 +32,6 @@ void dodraw(float factor){
 
   for (int i = 0; i < 2000; i+=2) {
     if(i< 140 & i%8 !=0) continue;
-    else {r = 10.0;}
     float t = radians(i);
     float x = t * cos(t)* factor;
     float y = t * sin(t) *factor;
